@@ -1,5 +1,3 @@
-package code.shark;
-
 import static java.awt.event.KeyEvent.*;
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -20,7 +18,7 @@ public class Coder {
     }
 
 
-    public static void main(String... args) throws Exception {
+    public static void main(String[] args) throws Exception {
         Coder keyboard = new Coder();
         keyboard.type(keyboard.readFile("data.txt"));
     }
